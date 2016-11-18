@@ -5,3 +5,42 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  color: white;
+}
+
+.main {
+  background-image: url("../img/water.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+
+.header {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 75%;
+}
+
+.logo h1 {
+  padding-left: 30px;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav li {
+  display: inline;
+  padding-right: 15px;
+}
