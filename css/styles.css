@@ -6,9 +6,15 @@
             box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Caviar;
+    src: url("../fonts/CaviarDreams.ttf");
+}
+
 body {
   margin: 0;
   color: white;
+  font-family: Caviar;
 }
 
 .main {
@@ -16,11 +22,11 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1000px;
+  height: 1080px;
 }
 
 .header {
-  height: 200px;
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,4 +49,51 @@ body {
 .nav li {
   display: inline;
   padding-right: 15px;
+}
+
+/*Nav Area End*/
+
+.summary {
+  background: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  padding: 45px;
+  width: 50%;
+  float: left;
+  margin: 110px 0 0 50px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.content1::after {
+  content: url("../img/porter.png");
+  transform: scale(.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Content1 Area Ends*/
+
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 200px;
+  height: auto;
+  background: rgba(0,0,0,0.5);
+  border-radius: 3px;
+
+}
+
+.gallery img:nth-child(n+4) {
+  transform: scale(.74);
+}
+
+.gallery img:nth-child(3) {
+  transform: scale(.7);
 }
