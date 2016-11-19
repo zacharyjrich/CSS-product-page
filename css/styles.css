@@ -22,16 +22,14 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1080px;
-  position: relative;
+  height: 100%;
 }
 
 .header {
-  height: 150px;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
 }
 
 .logo {
@@ -53,45 +51,51 @@ body {
   display: inline;
 }
 
-.nav li:nth-of-type(-n+2) {
-  padding-right: 50px;
+.nav li:nth-of-type(n+2):before {
+  padding-right: 30px;
+  padding-left: 30px;
+  content: "|";
 }
 
 /*Nav Area End*/
 
-h3 {
+h2 {
   text-align: center;
 }
 
-.content1 {
+.content {
   background: rgba(0,0,0,0.5);
-  border-radius: 10px;
-  position: absolute;
-  margin: 120px 50px 0 50px;
+  position: relative;
 }
 
 .summary {
   padding: 35px;
   width: 50%;
+  height: auto;
   float: left;
-  top: 0;
-  left: 0;
 }
 
 .pic-info {
   padding: 35px;
-  /*float: left;*/
   width: 50%;
-  /*top: 0;
-  right: 0;*/
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
 }
 
 .pic-info img {
-  width: 40%;
-  /*position: relative;*/
+  width: 200px;
+}
+
+.pic-info:before {
+  content: "Is and always will be my favorite porter!";
+  position: absolute;
+  width: 100px;
+  font-size: 14px;
+  top: 100px;
+  right: 60px;
+  text-align: center;
+  z-index: 1;
 }
 
 .form {
@@ -112,21 +116,21 @@ td, th {
 
 /*Content1 Area Ends*/
 
-.content2 {
+.content:last-of-type {
+  margin: 0;
   padding-top: 50px;
-  background: rgba(0,0,0,0.5);
-  position: absolute;
+  background: rgba(255,255,255,0.5);
 }
 
 .gallery {
-  margin-top: -50px;
+  margin-top: -30px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .gallery img {
-  width: 15%;
+  width: 180px;
   height: auto;
   border-radius: 3px;
 }
@@ -142,4 +146,8 @@ td, th {
 
 .gallery img:nth-of-type(n+4) {
   transform: scale(.75);
+}
+
+span {
+  text-shadow: .5px .5px black;
 }
