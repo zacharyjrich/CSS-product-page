@@ -6,7 +6,7 @@
 
 ## Description
 
-This project utilizes several different methods of CSS to create a simple page for the sale of a product.
+This project utilizes several different methods of CSS to create a simple page to promote a product.
 
 ## Objectives
 
