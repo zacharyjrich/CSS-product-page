@@ -59,7 +59,6 @@ body {
 
 h2 {
   text-align: center;
-  text-shadow: .5px .5px black;
 }
 
 .content1 {
@@ -134,6 +133,11 @@ td, th {
   background: rgba(255,255,255,0.3);
   position: relative;
   /*text-align: center;*/
+}
+
+.content2 h2 {
+  /*color: #766F6D;*/
+  text-shadow: 1px 1px 2px black;
 }
 
 .gallery {
