@@ -24,7 +24,9 @@ This project utilizes several different methods of CSS to create a simple page t
 
 ## Setup/Installation Requirements
 
-1) Clone this repository https://github.com/zacharyjrich/CSS-product-page
+1) Check it out here https://zacharyjrich.github.io/CSS-product-page
+
+2) Or clone this repository https://github.com/zacharyjrich/CSS-product-page
 
 
 ## Known Bugs
